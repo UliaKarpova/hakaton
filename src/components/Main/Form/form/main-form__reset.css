@@ -1,0 +1,16 @@
+.main-form__reset {
+    height: 47px;
+    width: 270px;
+    border-radius: 5px;
+    background-color: rgba(33, 122, 255, 0.1);
+    border: none;
+    color: #217AFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+    cursor: pointer;
+}

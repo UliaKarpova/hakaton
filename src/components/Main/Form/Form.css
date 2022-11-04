@@ -1,0 +1,13 @@
+@import url(./form/main-form.css);
+@import url(./form/main-form__text.css);
+@import url(./form/main-form__radio-block.css);
+@import url(./form/main-form__label.css);
+@import url(./form/main-form__radio.css);
+@import url(./form/main-form__radio-input.css);
+@import url(./form/main-form__blur-reset.css);
+@import url(./form/main-form__range-value.css);
+@import url(./form/main-form__range.css);
+@import url(./form/main-form__range-number.css);
+@import url(./form/main-form__checkbox.css);
+@import url(./form/main-form__submit.css);
+@import url(./form/main-form__reset.css);

@@ -1,0 +1,36 @@
+.main-form__radio {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(33, 122, 255, 0.1);
+    color: #217AFF;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+    
+.main-form__radio-input:checked + .main-form__radio {
+    background-color: #217AFF;
+    color: rgba(33, 122, 255, 0.1);
+}
+
+.rectangle {
+    background-image: url(../../../../images/rectangleDark.svg);
+}
+
+.main-form__radio-input:checked + .rectangle {
+    background-image: url(../../../../images/rectangle.svg);
+    
+
+}
+
+.hand {
+    background-image: url(../../../../images/hand.svg);
+}
+
+.main-form__radio-input:checked + .hand {
+    background-image: url(../../../../images/handWhite.svg);
+
+}
