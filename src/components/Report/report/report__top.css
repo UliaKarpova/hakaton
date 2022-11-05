@@ -1,0 +1,4 @@
+.report__top {
+    display: flex;
+    flex-direction: row;
+}

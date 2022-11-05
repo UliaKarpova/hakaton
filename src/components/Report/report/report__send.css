@@ -1,0 +1,14 @@
+.report__send {
+    background-color: rgba(33, 122, 255, 0.1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #217AFF;
+    height: 47px;
+    width: 270px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}

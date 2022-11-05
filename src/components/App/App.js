@@ -4,6 +4,7 @@ import React from 'react';
 import './App.css';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
+import Report from '../Report/Report';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
           <Header />
           <Main />
+          <Report />
       
     </div>
   );
