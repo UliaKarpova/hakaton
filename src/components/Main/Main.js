@@ -1,10 +1,16 @@
 import React from 'react';
 
-import Form from './Form/Form';
+import './Main.css';
+
+import Form from '../Form/Form';
+import Result from '../Result/Result';
 
 function Main() {
     return (
-        <Form />
+        <div className='main-container'>
+            <Form />
+            <Result />
+        </div>
     )
 }
 

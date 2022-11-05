@@ -1,0 +1,6 @@
+.main-result {
+    width: 530px;
+    height: calc(100vh - 80px);
+    margin: 0 50px;
+    padding-top: 50px;
+}

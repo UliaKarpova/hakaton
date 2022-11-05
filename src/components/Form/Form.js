@@ -2,13 +2,6 @@ import React from 'react';
 
 import './Form.css';
 
-/*import rectangle from '../../../images/rectangle.svg';
-import hand from '../../../images/hand.svg';
-import rectangleDark from '../../../images/rectangleDark.svg';
-import handWhite from '../../../images/handWhite.svg';
-*/
-
-
 function Form () {
     return (
         <form className='main-form'>

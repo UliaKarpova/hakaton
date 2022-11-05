@@ -17,20 +17,20 @@
 }
 
 .rectangle {
-    background-image: url(../../../../images/rectangleDark.svg);
+    background-image: url(../../../images/rectangleDark.svg);
 }
 
 .main-form__radio-input:checked + .rectangle {
-    background-image: url(../../../../images/rectangle.svg);
+    background-image: url(../../../images/rectangle.svg);
     
 
 }
 
 .hand {
-    background-image: url(../../../../images/hand.svg);
+    background-image: url(../../../images/hand.svg);
 }
 
 .main-form__radio-input:checked + .hand {
-    background-image: url(../../../../images/handWhite.svg);
+    background-image: url(../../../images/handWhite.svg);
 
 }
