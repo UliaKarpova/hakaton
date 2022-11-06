@@ -2,5 +2,11 @@
 @import url(../../vendor/fonts/fonts.css);
 
 .App {
-  font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+.block {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px;
 }

@@ -1,8 +1,11 @@
 .main-form__range-value {
-    margin: 0 auto 14px;
+    margin: 0 auto 10px;
     font-style: normal;
     font-weight: 400;
+    text-align: center;
     font-size: 12px;
     line-height: 15px;
     color: #217AFF;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.05);
 }

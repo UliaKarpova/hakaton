@@ -10,7 +10,7 @@ function Result () {
 
     const cardElements = cardsData.map((card) => {
         return (
-            <li key={Math.random()} className='main-result__list-item'>
+            <li key={Math.random()} className='main-result__list-item block'>
                 <Card card={card} />
             </li>
         )
@@ -18,7 +18,10 @@ function Result () {
     return (
 
         <div className='main-result'>
-            <h2 className='main-result__title'>Найдено {cardsData.length} индустриальных квартала</h2>
+            <div className='main-result__head block'>
+                <h2 className='main-result__title'>Найдено {cardsData.length} индустриальных квартала</h2>
+                <button className='main-result__reset' type='button'>&#10006; сбросить</button>
+            </div>
             
             <ul className='main-result__list'>
                 {cardElements}

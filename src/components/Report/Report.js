@@ -1,72 +1,82 @@
 import React from 'react';
 
 import './Report.css';
-import download from '../../images/download.svg'
 
-function Report ({data}) {
+import bigPhoto from '../../images/big.png';
+import photo1 from '../../images/1.png';
+import photo2 from '../../images/2.png';
+import photo3 from '../../images/3.png';
+import photo4 from '../../images/4.png';
+
+
+function Report () {
 
     return (
         <main className='report'>
+            <button className='report__goBack' type='button'>&lsaquo;   Назад к карте</button>
             <div className='report__top'>
-                <div className='report__grid'>
-                    <div className='report__big-photo'></div>
-                    <div className='report__small-photo'></div>
-                    <div className='report__small-photo'></div>
-                    <div className='report__small-photo'></div>
-                    <div className='report__small-photo'></div>
+                <div className='report__grid block'>
+                    <div className='report__big-photo'>
+                        <img className='report__image big' src={bigPhoto} alt='Большое фото' />
+                    </div>
+                    <div className='report__small-photo'>
+                        <img className='report__image big' src={photo1} alt='Большое фото' />
+                    </div>
+                    <div className='report__small-photo'>
+                        <img className='report__image big' src={photo2} alt='Большое фото' />
+                    </div>
+                    <div className='report__small-photo'>
+                        <img className='report__image big' src={photo3} alt='Большое фото' />
+                    </div>
+                    <div className='report__small-photo'>
+                        <img className='report__image big' src={photo4} alt='Большое фото' />
+                    </div>
                 </div>
                 <div className='report__data'>
-                    <h3 className='report__title'>Рынок на Октябрьской</h3>
-                    <ul className='report__list'>
-                        <li className='report__parametr'>
-                            <span className='report__parametr-name'>Параметр</span>
-                            <p className='report__value'>Описание параметра</p>
-                        </li>
-                        <li className='report__parametr'>
-                            <span className='report__parametr-name'>Параметр</span>
-                            <p className='report__value'>Описание параметра</p>
-                        </li>
-                        <li className='report__parametr'>
-                            <span className='report__parametr-name'>Параметр</span>
-                            <p className='report__value'>Описание параметра</p>
-                        </li>
-                        <li className='report__parametr'>
-                            <span className='report__parametr-name'>Параметр</span>
-                            <p className='report__value'>Описание параметраОписание параметраОписание параметраОписание параметраОписание параметра</p>
-                        </li>
-                        <li className='report__parametr'>
-                            <span className='report__parametr-name'>Параметр</span>
-                            <p className='report__value'>Описание параметра</p>
-                        </li>
-                        <li className='report__parametr'>
-                            <span className='report__parametr-name'>Параметр</span>
-                            <p className='report__value'>Описание параметраОписание параметраОписание параметраОписание параметраОписание параметраОписание параметра</p>
-                        </li>
-                        <li className='report__parametr'>
-                            <span className='report__parametr-name'>Параметр</span>
-                            <p className='report__value'>Описание параметра</p>
-                        </li>
-                        <li className='report__parametr'>
-                            <span className='report__parametr-name'>Параметр</span>
-                            <p className='report__value'>Описание параметраОписание параметраОписание параметра</p>
-                        </li>
-                        <li className='report__parametr'>
-                            <span className='report__parametr-name'>Параметр</span>
-                            <p className='report__value'>Описание параметраОписание параметраОписание параметраОписание параметраОписание параметраОписание параметра</p>
-                        </li>
-                        <li className='report__parametr'>
-                            <span className='report__parametr-name'>Параметр</span>
-                            <p className='report__value'>Описание параметра</p>
-                        </li>
-                    </ul>
-                    <div className='report__buttons'>
-                        <button type='button' className='report__download'>Скачать документацию</button>
-                        <button type='button' className='report__send'>Отправить</button>
+                    <div className='report__head block'>
+                        <h3 className='report__title'>Рынок на Октябрьской</h3>
+                        <p className='report__info'>Краткая информация об объекте</p>
                     </div>
+
+                    <div className='block'>
+                        <h3 className='report__subtitle'>Основные характеристики объекта</h3>
+                        <ul className='report__list'>
+                            <li className='report__parametr'>
+                                <span className='report__parametr-name'>Параметр</span>
+                                <p className='report__value'>Описание параметра</p>
+                            </li>
+                            <li className='report__parametr'>
+                                <span className='report__parametr-name'>Параметр</span>
+                                <p className='report__value'>Описание параметра</p>
+                            </li>
+                            <li className='report__parametr'>
+                                <span className='report__parametr-name'>Параметр</span>
+                                <p className='report__value'>Описание параметра</p>
+                            </li>
+                            <li className='report__parametr'>
+                                <span className='report__parametr-name'>Параметр</span>
+                                <p className='report__value'>Описание параметраОписание параметраОписание параметра</p>
+                            </li>
+                            <li className='report__parametr'>
+                                <span className='report__parametr-name'>Параметр</span>
+                                <p className='report__value'>Описание параметра</p>
+                            </li>
+                            <li className='report__parametr'>
+                                <span className='report__parametr-name'>Параметр</span>
+                                <p className='report__value'>Описание параметраОписание параметра</p>
+                            </li>
+                        </ul>
+                        <div className='report__buttons'>
+                            <button type='button' className='report__download'>Скачать документацию</button>
+                            <button type='button' className='report__send'>Отправить</button>
+                        </div>
+                    </div>
+                   
                 </div>
             </div>
 
-                    <h4 className='report__subtitle'>Описание</h4>
+            <div className='block'>
+                <h4 className='report__subtitle'>Описание</h4>
                     <p className='report__text'>
                         Приятно, граждане, наблюдать, как независимые государства формируют глобальную экономическую сеть и при этом —  
                         подвергнуты целой серии независимых исследований. Противоположная точка зрения подразумевает, что сторонники тоталитаризма 
@@ -108,6 +118,7 @@ function Report ({data}) {
                         Не следует, однако, забывать, что сплочённость команды профессионалов прекрасно подходит для реализации поставленных обществом задач. 
                         Идейные соображения высшего порядка, а также консультация с широким активом говорит о возможностях инновационных методов управления процессами. Кстати,  многие известные личности освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, обнародованы! Мы вынуждены отталкиваться от того, что консультация с широким активом представляет собой интересный эксперимент проверки благоприятных перспектив. В своём стремлении повысить качество жизни, они забывают, что повышение уровня гражданского сознания не даёт нам иного выбора, кроме определения новых предложений. Задача организации, в особенности же укрепление и развитие внутренней структуры предоставляет широкие возможности для экспериментов, поражающих по своей масштабности и грандиозности.
                     </p>
+            </div>
         </main>
     )
 }
