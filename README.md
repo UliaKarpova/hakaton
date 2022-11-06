@@ -9,6 +9,3 @@
 
 **Используемые технологии:**
 React, API, CSS, GIT, БЭМ
-
-
-Познакомиться с проектом можно [здесь](http://learn.more.nomoredomains.sbs/)
