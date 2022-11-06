@@ -1,6 +1,7 @@
 @import url(./form/main-form.css);
-@import url(./form/main-form__text.css);
 @import url(./form/main-form__radio-block.css);
+@import url(./form/main-form__text.css);
+@import url(./form/main-form__section.css);
 @import url(./form/main-form__label.css);
 @import url(./form/main-form__radio.css);
 @import url(./form/main-form__radio-input.css);

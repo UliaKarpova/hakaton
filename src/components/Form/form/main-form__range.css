@@ -3,4 +3,6 @@
     color: #217AFF;
     background-color: #BFBFBF;
     cursor: pointer;
+    display: block;
+    width: 270px;
 }

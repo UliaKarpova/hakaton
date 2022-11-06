@@ -1,10 +1,14 @@
 @import url(./report/report.css);
+@import url(./report/report__goBack.css);
 @import url(./report/report__top.css);
 @import url(./report/report__grid.css);
 @import url(./report/report__big-photo.css);
+@import url(./report/report__image.css);
 @import url(./report/report__small-photo.css);
 @import url(./report/report__data.css);
+@import url(./report/report__head.css);
 @import url(./report/report__title.css);
+@import url(./report/report__info.css);
 @import url(./report/report__list.css);
 @import url(./report/report__parametr.css);
 @import url(./report/report__parametr-name.css);

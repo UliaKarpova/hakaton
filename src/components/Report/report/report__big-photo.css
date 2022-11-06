@@ -1,6 +1,5 @@
 .report__big-photo {
     grid-row-start: 1;
     grid-row-end: 5;
-    background: rgba(33, 122, 255, 0.1);
     border-radius: 10px;
 }

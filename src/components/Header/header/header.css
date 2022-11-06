@@ -5,4 +5,6 @@
     flex-direction: row;
     align-items: center;
     border-bottom: 1px solid #F5F5F5;
+    font-family: 'SFProDisplay-Regular', sans-serif;
+    box-sizing: border-box;
 }
