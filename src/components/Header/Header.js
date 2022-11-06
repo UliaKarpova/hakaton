@@ -9,13 +9,8 @@ function Header() {
                 <img className='header__logo' src={logo} alt='Logo' />
 
                 <nav className='header__nav'>
-                    {/*<Link to='/some-link'>*/} 
-                    <a href='#' className='header__link'>Какая-то навигация</a>
-                   {/* </Link>*/}
-
-                    {/*<Link to='/help'>*/}
-                        <a href='#' className='header__link'>Помощь</a>
-                   {/*</Link>*/}
+                    <a href='!#' className='header__link'>Какая-то навигация</a>
+                    <a href='!#' className='header__link'>Помощь</a>
                 </nav>
 
             <span className='header__info'>Разработано на конкурсе “Лидеры цифровой трансформации 2022”</span>
