@@ -1,0 +1,15 @@
+.main-result {
+    width: 580px;
+    position: fixed;
+    top: 80px;
+    right: 50px;
+    height: calc(100vh - 125px);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'SFUIText-Regular', sans-serif;
+    overflow-x: scroll;
+}
+
+.main-result::-webkit-scrollbar {
+    display: none;
+   }

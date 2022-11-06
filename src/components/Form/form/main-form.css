@@ -1,0 +1,12 @@
+.main-form {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 320px;
+    position: fixed;
+	top: calc(50% - 300px);
+    left: 0;
+    background-color: none;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'SFUIText-Regular', sans-serif;
+}

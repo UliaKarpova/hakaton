@@ -1,0 +1,15 @@
+.main-form__blur-reset {
+    display: inline;
+    margin-left: auto;
+    border: none;
+    background: none;
+    color: #BFBFBF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: right;
+    letter-spacing: 0em;
+    float: right;
+    margin-top: -30px;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/fonts/fonts.css);
+
+.App {
+    overflow: hidden;
+}
+
+.block {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px;
+}
