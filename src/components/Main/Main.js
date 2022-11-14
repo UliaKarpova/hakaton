@@ -21,10 +21,12 @@ function Main() {
 
     return (
         <div className='main-container'>
+            
+            <MapComp />
+
             <Form onReset={onReset} 
             onSubmit={onSubmit} />
             
-            <MapComp />
             
             <Result isFinded={isFinded} />
         </div>

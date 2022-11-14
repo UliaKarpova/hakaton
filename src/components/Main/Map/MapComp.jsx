@@ -16,7 +16,6 @@ import {
 const MapComp = () => {
   const [buttonIsActive, setButtonIsActive] = useState(false);
 
-
   const ymaps = useYMaps();
 
 
@@ -54,7 +53,7 @@ const MapComp = () => {
 
   //Отрисовка объекта полигонов
   const myPolygon = (data) => {
-    return data.map(item => (<Polygon  geometry={item.geometry} options={options} />))
+    return data.map(item => (<Polygon key={Math.random()} geometry={item.geometry} options={options} />))
   }
 
   // *** Отрисовка произвольной области ***
