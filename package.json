@@ -1,0 +1,34 @@
+{
+  "name": "hakaton",
+  "version": "1.0.0",
+  "description": "Сервер для тинерактивной карты для формирования границ территорий Москвы в целях комплексного развития",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UliaKarpova/hakaton.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Алексеев Евгений",
+    "email": "alekseev.evgeniy.wd@yandex.ru",
+    "url": "https://github.com/0R8-9dzcl"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UliaKarpova/hakaton/issues"
+  },
+  "homepage": "https://github.com/UliaKarpova/hakaton#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
