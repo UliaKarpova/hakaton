@@ -1,0 +1,7 @@
+.slider-card__image {
+    height: 214px;
+    width: 425px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

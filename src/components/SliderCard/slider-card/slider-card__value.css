@@ -1,0 +1,11 @@
+.slider-card__value {
+    color: #26303F;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    max-width: 245px;
+}

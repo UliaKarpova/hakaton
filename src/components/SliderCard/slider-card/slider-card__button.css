@@ -1,0 +1,17 @@
+.slider-card__button {
+    background: #217AFF;
+    box-shadow: 1px 4px 15px rgba(28, 37, 50, 0.1);
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 47px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    width: calc(100% - 50px);
+    cursor: pointer;
+}

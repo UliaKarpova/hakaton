@@ -9,6 +9,7 @@
 @import url(./report/report__head.css);
 @import url(./report/report__title.css);
 @import url(./report/report__info.css);
+@import url(./report/report__rigth-text.css);
 @import url(./report/report__list.css);
 @import url(./report/report__parametr.css);
 @import url(./report/report__parametr-name.css);
@@ -18,3 +19,6 @@
 @import url(./report/report__send.css);
 @import url(./report/report__subtitle.css);
 @import url(./report/report__text.css);
+@import url(./report/report__bottom-title.css);
+@import url(./report/report__slider.css);
+@import url(./report/report__slider-item.css);

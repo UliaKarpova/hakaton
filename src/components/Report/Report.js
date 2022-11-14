@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import './Report.css';
 
+import SliderCard from '../SliderCard/SliderCard';
+import { cardsData } from '../../utils/cardsData';
 import bigPhoto from '../../images/big.png';
 import photo1 from '../../images/1.png';
 import photo2 from '../../images/2.png';
@@ -11,6 +13,14 @@ import photo4 from '../../images/4.png';
 
 
 function Report () {
+
+    const sliderCards = cardsData.map((item) => {
+        return (
+            <li key={Math.random()} className='report__slider-item'>
+                <SliderCard card={item} />
+            </li>
+        )
+    })
 
     return (
         <main className='report'>
@@ -36,6 +46,7 @@ function Report () {
                 <div className='report__data'>
                     <div className='report__head block'>
                         <h3 className='report__title'>Рынок на Октябрьской</h3>
+                        <p className='report__rigth-text'>Объект размещен 22 сентября 2021 года</p>
                         <p className='report__info'>Краткая информация об объекте</p>
                     </div>
 
@@ -119,6 +130,15 @@ function Report () {
                         Идейные соображения высшего порядка, а также консультация с широким активом говорит о возможностях инновационных методов управления процессами. Кстати,  многие известные личности освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, обнародованы! Мы вынуждены отталкиваться от того, что консультация с широким активом представляет собой интересный эксперимент проверки благоприятных перспектив. В своём стремлении повысить качество жизни, они забывают, что повышение уровня гражданского сознания не даёт нам иного выбора, кроме определения новых предложений. Задача организации, в особенности же укрепление и развитие внутренней структуры предоставляет широкие возможности для экспериментов, поражающих по своей масштабности и грандиозности.
                     </p>
             </div>
+            <div className='report__bottom-title block'>
+                <h3 className='report__subtitle'>Другие объекты на выделенной области</h3>
+                <button type='button' className='report__rigth-text button'>Скрыть</button>
+            </div>
+
+                <ul className='report__slider'>
+                    {sliderCards}
+                </ul>
+
         </main>
     )
 }

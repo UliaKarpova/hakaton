@@ -1,0 +1,20 @@
+.report__rigth-text {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin: 0;
+    color: #BFBFBF;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    
+}
+
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 22px;
+}
