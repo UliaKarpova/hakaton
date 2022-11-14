@@ -12,10 +12,11 @@ function App() {
     <div className="App">
       <MapProvider>
 
-      <Routes>
-        <Route exact path='/' element={<><Header /><Main /></>} />
-        <Route exact path='/report' element={<><Header /><Report /></>} />
-      </Routes>
+        <Routes>
+          <Route exact path='/' element={<><Header /><Main /></>} />
+          <Route exact path='/report' element={<><Header /><Report /></>} />
+        </Routes>
+
       </MapProvider>
 
     </div>
