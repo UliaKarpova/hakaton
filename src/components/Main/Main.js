@@ -1,16 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import './Main.css';
 
-import Form from './Form/Form';
+import Form from '../Form/Form';
 import MapComp from './Map/MapComp';
+import Result from '../Result/Result';
 
 function Main() {
-  return (
-    <div className='main'>
-      <Form />
-      <MapComp />
-    </div>
-  );
+    const [isFinded, setIsFinded] = useState(false);
+
+    function onSubmit(event) {
+        event.preventDefault();
+        setIsFinded(true);
+    }
+
+    function onReset(event) {
+        event.preventDefault();
+        setIsFinded(false);
+    }
+
+    return (
+        <div className='main-container'>
+            <Form onReset={onReset} 
+            onSubmit={onSubmit} />
+            
+            <MapComp />
+            
+            <Result isFinded={isFinded} />
+        </div>
+    )
 }
 
 export default Main;
