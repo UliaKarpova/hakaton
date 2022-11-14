@@ -10,10 +10,14 @@ import Report from '../Report/Report';
 function App() {
   return (
     <div className="App">
+      <MapProvider>
+
       <Routes>
-        <Route exact path='/' element={<MapProvider><Header /><Main /></MapProvider>} />
+        <Route exact path='/' element={<><Header /><Main /></>} />
         <Route exact path='/report' element={<><Header /><Report /></>} />
       </Routes>
+      </MapProvider>
+
     </div>
   );
 }
