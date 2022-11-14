@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Report.css';
 
@@ -13,7 +14,7 @@ function Report () {
 
     return (
         <main className='report'>
-            <button className='report__goBack' type='button'>&lsaquo;   Назад к карте</button>
+            <Link to='/' className='report__goBack'>&lsaquo;   Назад к карте</Link>
             <div className='report__top'>
                 <div className='report__grid block'>
                     <div className='report__big-photo'>

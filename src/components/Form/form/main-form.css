@@ -1,6 +1,6 @@
 .main-form {
     margin-left: 50px;
-    margin-right: 50px;
+    height: 100%;
     width: 320px;
     position: fixed;
 	top: calc(50% - 300px);

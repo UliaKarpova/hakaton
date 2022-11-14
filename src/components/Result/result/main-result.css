@@ -13,3 +13,7 @@
 .main-result::-webkit-scrollbar {
     display: none;
    }
+
+   .main-result_hidden {
+    display: none;
+}

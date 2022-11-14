@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Card.css';
 
@@ -8,7 +9,7 @@ function Card ({ card }) {
             <div className='card__header'>
                 <h2 className='card__title'>{card.name}</h2>
 
-                <button type='button' className='card__button'>Перейти</button>
+                <Link to='/report' className='card__button'>Перейти</Link>
             </div>
 
             <ul className='card__list'>

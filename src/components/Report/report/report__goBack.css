@@ -1,5 +1,4 @@
 .report__goBack {
-    background: none;
     color: #26303F;
     border: none;
     font-size: 12px;
@@ -7,6 +6,7 @@
     line-height: 15px;
     letter-spacing: 0em;
     text-align: left;
+    text-decoration: none;
     cursor: pointer;
     margin-bottom: 20px;
 }
