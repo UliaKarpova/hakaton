@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './Main.css';
 
 import Form from '../Form/Form';
+import MapComp from './Map/MapComp';
 import Result from '../Result/Result';
 
 function Main() {
@@ -23,9 +24,12 @@ function Main() {
             <Form onReset={onReset} 
             onSubmit={onSubmit} />
             
+            <MapComp />
+            
             <Result isFinded={isFinded} />
         </div>
     )
 }
 
 export default Main;
+
