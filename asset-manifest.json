@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hakaton/static/css/main.c3d9c468.css",
-    "main.js": "/hakaton/static/js/main.219f94f2.js",
+    "main.css": "/hakaton/static/css/main.af13c355.css",
+    "main.js": "/hakaton/static/js/main.069b809d.js",
     "static/js/787.58dd1046.chunk.js": "/hakaton/static/js/787.58dd1046.chunk.js",
     "static/media/big.png": "/hakaton/static/media/big.80f71c56bbabe9a93360.png",
     "static/media/SFProDisplay-Regular.woff": "/hakaton/static/media/SFProDisplay-Regular.7ee14c637e39445d7093.woff",
@@ -19,12 +19,12 @@
     "static/media/download.svg": "/hakaton/static/media/download.dba92da2179369310dfe.svg",
     "static/media/rectangleDark.svg": "/hakaton/static/media/rectangleDark.dde819d909325d0cc139.svg",
     "static/media/rectangle.svg": "/hakaton/static/media/rectangle.0eb43c9cfd3957d9a416.svg",
-    "main.c3d9c468.css.map": "/hakaton/static/css/main.c3d9c468.css.map",
-    "main.219f94f2.js.map": "/hakaton/static/js/main.219f94f2.js.map",
+    "main.af13c355.css.map": "/hakaton/static/css/main.af13c355.css.map",
+    "main.069b809d.js.map": "/hakaton/static/js/main.069b809d.js.map",
     "787.58dd1046.chunk.js.map": "/hakaton/static/js/787.58dd1046.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3d9c468.css",
-    "static/js/main.219f94f2.js"
+    "static/css/main.af13c355.css",
+    "static/js/main.069b809d.js"
   ]
 }
