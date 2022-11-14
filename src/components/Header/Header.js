@@ -8,7 +8,7 @@ function Header() {
                 <img className='header__logo' src={logo} alt='Logo' />
 
                 <nav className='header__nav'>
-                    <a href='!#' className='header__link'>Какая-то навигация</a>
+                    <a href='!#' className='header__link'>Навигация по сервису</a>
                     <a href='!#' className='header__link'>Помощь</a>
                 </nav>
 

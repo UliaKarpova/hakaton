@@ -1,12 +1,24 @@
 .card__button {
-    color: #BFBFBF;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 12px;
+    height: 47px;
+    width: 270px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid rgba(33, 122, 255, 0.1);
+    color: #217AFF;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 47px;
     letter-spacing: 0em;
-    text-align: right;
-    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+    
+.card__button:hover {
+    background-color: rgba(33, 122, 255, 0.1);
+    border: 1px solid #217AFF;
 }

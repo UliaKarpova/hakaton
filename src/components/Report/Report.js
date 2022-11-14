@@ -43,28 +43,28 @@ function Report () {
                         <h3 className='report__subtitle'>Основные характеристики объекта</h3>
                         <ul className='report__list'>
                             <li className='report__parametr'>
-                                <span className='report__parametr-name'>Параметр</span>
-                                <p className='report__value'>Описание параметра</p>
+                                <span className='report__parametr-name'>Адрес</span>
+                                <p className='report__value'>Москва, ТАО (Троицкий), м. Ольховая, Троицк, Изумрудный кп, улица 1-я Изумрудная, 25</p>
                             </li>
                             <li className='report__parametr'>
-                                <span className='report__parametr-name'>Параметр</span>
-                                <p className='report__value'>Описание параметра</p>
+                                <span className='report__parametr-name'>Характеристики помещения</span>
+                                <p className='report__value'>нежилое</p>
                             </li>
                             <li className='report__parametr'>
-                                <span className='report__parametr-name'>Параметр</span>
-                                <p className='report__value'>Описание параметра</p>
+                                <span className='report__parametr-name'>Количество рабочих мест</span>
+                                <p className='report__value'>300</p>
                             </li>
                             <li className='report__parametr'>
-                                <span className='report__parametr-name'>Параметр</span>
-                                <p className='report__value'>Описание параметраОписание параметраОписание параметра</p>
+                                <span className='report__parametr-name'>Права и обременения</span>
+                                <p className='report__value'>аренда</p>
                             </li>
                             <li className='report__parametr'>
-                                <span className='report__parametr-name'>Параметр</span>
-                                <p className='report__value'>Описание параметра</p>
+                                <span className='report__parametr-name'>Год постройки</span>
+                                <p className='report__value'>1982</p>
                             </li>
                             <li className='report__parametr'>
-                                <span className='report__parametr-name'>Параметр</span>
-                                <p className='report__value'>Описание параметраОписание параметра</p>
+                                <span className='report__parametr-name'>Земельный участок</span>
+                                <p className='report__value'>-</p>
                             </li>
                         </ul>
                         <div className='report__buttons'>
@@ -72,10 +72,9 @@ function Report () {
                             <button type='button' className='report__send'>Отправить</button>
                         </div>
                     </div>
-                   
                 </div>
             </div>
-
+            
             <div className='block'>
                 <h4 className='report__subtitle'>Описание</h4>
                     <p className='report__text'>
