@@ -34376,4 +34376,4 @@ const dataAvar = [
      incongruityVRI: "Нет",
      crushBld: "Нет"
     }
-   ]
+];
